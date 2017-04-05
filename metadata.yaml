@@ -1,0 +1,16 @@
+name: instana
+summary: The Core DNS service.
+maintainers:
+    - Konstantinos Tsakalozos <konstantinos.tsakalozos@canonical.com>
+description: |
+  TBD
+tags:
+  - infrastructure
+  - instana
+subordinate: true
+series:
+  - xenial
+requires:
+  juju-info:
+    interface: juju-info
+    scope: container

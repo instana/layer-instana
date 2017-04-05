@@ -1,0 +1,13 @@
+options:
+  base64_key:
+    type: string
+    default: ''
+    description: The base 64 representation of the auth key to access Instana
+  instana_host:
+    type: string
+    default: 'saas-us-west-2.instana.io'
+    description: The Instana host endpoint
+  instana_port:
+    type: string
+    default: '443'
+    description: The Instana endpoint port
