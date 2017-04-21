@@ -37,10 +37,10 @@ items:
               image: instana/agent
               imagePullPolicy: Always
               env:
-                - name: {{INSTANA_HOST}}
-                  value: saas-eu-west-1.instana.io
-                - name: {{INSTANA_PORT}}
-                  value: '443'
+                - name: INSTANA_HOST
+                  value: {{INSTANA_HOST}}
+                - name: INSTANA_PORT
+                  value: '{{INSTANA_PORT}}'
                 - name: INSTANA_KEY
                   valueFrom:
                     secretKeyRef:

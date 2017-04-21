@@ -1,9 +1,9 @@
 name: instana
-summary: The Core DNS service.
+summary: The charm to install the Instana Agent.
 maintainers:
     - Konstantinos Tsakalozos <konstantinos.tsakalozos@canonical.com>
 description: |
-  TBD
+  Instana is a fully automatic APM solution.
 tags:
   - infrastructure
   - instana
